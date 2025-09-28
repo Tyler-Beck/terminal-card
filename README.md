@@ -1,4 +1,4 @@
-# Terminal Business Card 🚀
+# Terminal Business Card 
 
 > My way of learning Bash scripting and looking cool in the process.
 
@@ -6,14 +6,14 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-blue)](https://tylerbeck.github.io/terminal-card/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 🎯 Quick Start
+## Quick Start
 
 ```bash
 # Run my terminal business card
 curl -s https://tyler-beck.github.io/terminal-card/card.sh | bash
 ```
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#-features)
 - [Usage](#-usage)
@@ -62,7 +62,7 @@ myprojects - view my projects
 my resume - view my resume 
 ```
 
-## 📦 Installation
+## Installation
 
 ### One-Time Use (Recommended)
 No installation needed! Just run the curl commands above.
