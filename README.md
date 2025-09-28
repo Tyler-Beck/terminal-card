@@ -1,8 +1,6 @@
-# terminal-card
+# Terminal Business Card 🚀
 
-# Tyler Beck - Terminal Business Card 🚀
-
-> A creative way to showcase my portfolio and contact information directly in the terminal!
+> My way of learning Bash scripting and looking cool in the process.
 
 [![Terminal Card Demo](https://img.shields.io/badge/Demo-Live-green)](https://tylerbeck.github.io/terminal-card/card.sh)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-blue)](https://tylerbeck.github.io/terminal-card/)
@@ -12,7 +10,7 @@
 
 ```bash
 # Run my terminal business card
-curl -s https://tylerbeck.github.io/terminal-card/card.sh | bash
+curl -s https://tyler-beck.github.io/terminal-card/card.sh | bash
 ```
 
 ## 📋 Table of Contents
@@ -27,39 +25,41 @@ curl -s https://tylerbeck.github.io/terminal-card/card.sh | bash
 - [Contributing](#-contributing)
 - [Connect With Me](#-connect-with-me)
 
-## ✨ Features
+## Features
 
-- **🎨 Colorful ASCII Art** - Eye-catching header with my name
-- **📊 Interactive Portfolio** - Multiple pages for different information
-- **🔗 Easy Navigation** - Jump between resume, projects, and main card
-- **📱 Cross-Platform** - Works on macOS, Linux, Windows (WSL), and mobile terminals
-- **⚡ Fast Loading** - Lightweight scripts with minimal dependencies
-- **🎯 Professional** - Clean, organized display of skills and experience
+- **ASCII Art** - Eye-catching header with my name
+- **Interactive Portfolio** - Multiple pages for different information
+- **Easy Navigation** - Jump between resume, projects, and main card
+- **Cross-Platform** - Works on macOS, Linux, Windows (WSL), and mobile terminals
+- **Fast Loading** - Lightweight scripts with minimal dependencies
+- **Professional** - Clean, organized display of skills and experience
 
-## 🚀 Usage
+## Usage
 
 ### Main Business Card
 ```bash
-curl -s https://tylerbeck.github.io/terminal-card/card.sh | bash
+curl -s https://tyler-beck.github.io/terminal-card/card.sh | bash
 ```
 
 ### View My Projects
 ```bash
-curl -s https://tylerbeck.github.io/terminal-card/projects.sh | bash
+curl -s https://tyler-beck.github.io/terminal-card/projects.sh | bash
 ```
 
 ### See My Resume
 ```bash
-curl -s https://tylerbeck.github.io/terminal-card/resume.sh | bash
+curl -s https://tyler-beck.github.io/terminal-card/resume.sh | bash
 ```
 
 ### Install Locally (Optional)
 ```bash
 # Install as a local command
-curl -s https://tylerbeck.github.io/terminal-card/install.sh | bash
+curl -s https://tyler-beck.github.io/terminal-card/install.sh | bash
 
 # Then run anytime with:
-mycard
+mycard - view home screen
+myprojects - view my projects
+my resume - view my resume 
 ```
 
 ## 📦 Installation
@@ -70,26 +70,28 @@ No installation needed! Just run the curl commands above.
 ### Permanent Installation
 ```bash
 # Install the card as a local command
-curl -s https://tylerbeck.github.io/terminal-card/install.sh | bash
+curl -s https://tyler-beck.github.io/terminal-card/install.sh | bash
 
 # Restart your terminal or run:
 source ~/.bashrc  # or ~/.zshrc
 
 # Now you can run:
 mycard           # Main card
+myprojects       # Projects screen
+myresume         # Resume screen
 ```
 
 ### Manual Installation
 ```bash
 # Download and make executable
-curl -s https://tylerbeck.github.io/terminal-card/card.sh > ~/mycard
+curl -s https://tyler-beck.github.io/terminal-card/card.sh > ~/mycard
 chmod +x ~/mycard
 
 # Run it
 ~/mycard
 ```
 
-## 📁 What's Included
+## What's Included
 
 | File | Description | Usage |
 |------|-------------|--------|
@@ -98,7 +100,7 @@ chmod +x ~/mycard
 | `resume.sh` | Complete resume display | Education, experience, skills |
 | `install.sh` | Local installation script | Install as permanent command |
 
-## 📸 Screenshots
+## Screenshots
 
 ### Main Business Card
 ```
@@ -109,19 +111,18 @@ chmod +x ~/mycard
    ██║      ██║   ███████╗███████╗██║  ██║    ██████╔╝███████╗╚██████╗██║  ██╗
    ╚═╝      ╚═╝   ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝
 
-                    You Rock at Programming
 ```
 
 ### Side-by-Side Layout
 The card features a clean, boxed layout with About and Socials sections displayed side by side, similar to professional terminal applications.
 
-## 🛠 Customization
+## Customization
 
-Want to create your own terminal business card? Here's how:
+How to create your own:
 
 ### 1. Fork This Repository
 ```bash
-git clone https://github.com/tylerbeck/terminal-card.git
+git clone https://github.com/tyler-beck/terminal-card.git
 cd terminal-card
 ```
 
@@ -139,7 +140,7 @@ Use [patorjk.com/software/taag](http://patorjk.com/software/taag/) with the "ANS
 2. Enable GitHub Pages in repository settings
 3. Your card will be live at `https://yourusername.github.io/terminal-card/`
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Requirements
 - Any terminal with curl support
@@ -153,26 +154,23 @@ Use [patorjk.com/software/taag](http://patorjk.com/software/taag/) with the "ANS
 - ✅ Mobile terminals (Termux on Android)
 - ✅ Cloud shells (AWS CloudShell, Google Cloud Shell)
 
-### Color Support
-The scripts automatically detect color support and gracefully degrade on terminals without color capabilities.
-
 ### Security Note
 These scripts are safe to run and contain no executable code beyond displaying information. However, always review scripts before running them with curl | bash.
 
-## 🤝 Contributing
+## Contributing
 
-I welcome contributions! Here are some ways you can help:
+I welcome contributions. This is version 1.0 which I plan to make more impressive and complex as time goes on. Please feel free to:
 
-- 🐛 Report bugs or issues
-- 💡 Suggest new features
-- 🎨 Improve the design or layout
-- 📝 Enhance documentation
-- 🔧 Add new functionality
+- Report bugs or issues
+- Suggest new features
+- Improve the design or layout
+- Enhance documentation
+- Add new functionality
 
 ### Development
 ```bash
 # Clone the repository
-git clone https://github.com/tylerbeck/terminal-card.git
+git clone https://github.com/tyler-beck/terminal-card.git
 cd terminal-card
 
 # Make your changes
@@ -182,17 +180,17 @@ bash card.sh
 # Submit a pull request
 ```
 
-## 📊 Stats
+## Stats
 
 - **Response Time**: < 1 second
 - **File Size**: ~8KB total
 - **Dependencies**: None (pure bash)
 - **Supported Terminals**: 15+
 
-## 🎓 Educational Value
+## Educational Value
 
 This project demonstrates:
-- Bash scripting and terminal colors
+- Bash scripting
 - GitHub Pages deployment
 - Creative portfolio presentation
 - Cross-platform compatibility
@@ -204,27 +202,19 @@ Perfect for students learning:
 - Creative problem solving
 - Professional presentation
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🌟 Inspiration
+## Inspiration
 
-Inspired by the creative terminal cards in the developer community, particularly the YSAP style layout. Special thanks to all the developers who share their creative terminal solutions!
+All credit to @bahamas10 for indirectly giving me this idea.
 
-## 📞 Connect With Me
+## Connect With Me
 
-- 📧 **Email**: tyler.beck@email.com
-- 💼 **LinkedIn**: [linkedin.com/in/tylerbeck](https://linkedin.com/in/tylerbeck)
-- 🐙 **GitHub**: [github.com/tylerbeck](https://github.com/tylerbeck)
-- 🌐 **Portfolio**: [tylerbeck.dev](https://tylerbeck.dev)
-
-## 🏆 Achievements
-
-- ⭐ Created unique terminal-based portfolio
-- 🚀 Deployed with GitHub Pages
-- 📱 Cross-platform compatibility
-- 🎨 Professional design in terminal format
+- **Email**: beckt1@tcnj.edu 
+- **LinkedIn**: [linkedin.com/in/tyler-beck/profile](https://linkedin.com/in/tyler-beck/profile)
+- **GitHub**: [github.com/tyler-beck](https://github.com/tyler-beck)
 
 ---
 
@@ -238,12 +228,10 @@ Made with ❤️ by Tyler Beck
 
 ---
 
-## 🎯 Call to Action
-
 Try it now! Copy and paste this into your terminal:
 
 ```bash
 curl -s https://tylerbeck.github.io/terminal-card/card.sh | bash
 ```
 
-*Want to hire me? Let's connect and build something amazing together!*
+*Hope you enjoy!*
