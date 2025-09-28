@@ -59,12 +59,24 @@ echo -e "${CYAN}└────────────────────�
 echo ""
 
 # Legend section (like the original)
-echo -e "${GREEN}${BOLD}Legend${NC}"
+# Check if running locally or remotely
+if command -v myprojects >/dev/null 2>&1 && command -v myresume >/dev/null 2>&1; then
+    # Local installation detected
+    echo -e "${GREEN}\$ mycard${NC}                                           ${WHITE}Show this page${NC}"
+    echo -e "${GREEN}\$ myprojects${NC}                                      ${WHITE}View detailed projects showcase${NC}"
+    echo -e "${GREEN}\$ myresume${NC}                                        ${WHITE}View full resume in terminal${NC}"
+    echo -e "${DIM}                                                               ${NC}"
+    echo -e "${DIM}Remote access also available:${NC}"
+    echo -e "${GREEN}\$ curl tylerbeck.github.io/terminal-card/card.sh | bash${NC}     ${DIM}Run remotely${NC}"
+else
+    # Remote execution
+    echo -e "${GREEN}\$ curl tylerbeck.github.io/terminal-card/card.sh | bash${NC}     ${WHITE}Get this page${NC}"
+    echo -e "${GREEN}\$ curl tylerbeck.github.io/terminal-card/projects.sh | bash${NC} ${WHITE}View detailed projects${NC}"
+    echo -e "${GREEN}\$ curl tylerbeck.github.io/terminal-card/resume.sh | bash${NC}   ${WHITE}View full resume${NC}"
+    echo -e "${GREEN}\$ curl tylerbeck.github.io/terminal-card/install.sh | bash${NC}  ${WHITE}Install locally${NC}"
+fi
 echo ""
-echo -e "${GREEN}\$ curl yoursite.com/card.sh${NC}           ${WHITE}Get this page${NC}"
-echo -e "${GREEN}\$ curl yoursite.com/projects${NC}          ${WHITE}Get the list of my projects${NC}"
-echo -e "${GREEN}\$ curl yoursite.com/resume${NC}            ${WHITE}Get a view of my Resume${NC}"
-echo ""
+
 
 # Current Status
 echo -e "${YELLOW}${BOLD}Current Status:${NC}"
