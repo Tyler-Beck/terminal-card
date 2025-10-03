@@ -152,31 +152,31 @@ echo -e "  ${CYAN}Databases:${NC} MySQL, PostgreSQL"
 echo ""
 
 # Cool interactive ending
-echo -e "${BLUE}${BOLD}🚀 Want to explore more?${NC}"
+echo -e "${BLUE}${BOLD}Want to explore more?${NC}"
 echo -e "${WHITE}Type 'y' for an interactive menu, or any other key to exit:${NC}"
 read -n 1 -t 10 response
 echo ""
 
 if [[ $response =~ ^[Yy]$ ]]; then
     clear
-    echo -e "${GREEN}${BOLD}🎮 Interactive Mode Activated!${NC}"
+    echo -e "${GREEN}${BOLD}Interactive Mode Activated${NC}"
     echo ""
     echo -e "${CYAN}Choose an option:${NC}"
-    echo -e "${YELLOW}1)${NC} 🚀 View Projects"
-    echo -e "${YELLOW}2)${NC} 📄 View Resume" 
-    echo -e "${YELLOW}3)${NC} 📊 GitHub Stats"
-    echo -e "${YELLOW}4)${NC} 💬 Contact Info"
+    echo -e "${YELLOW}1)${NC} View Projects"
+    echo -e "${YELLOW}2)${NC} View Resume" 
+    echo -e "${YELLOW}3)${NC} GitHub Stats"
+    echo -e "${YELLOW}4)${NC} Contact Info"
     echo ""
     
     read -p "Enter your choice (1-4): " choice
     case $choice in
         1) echo -e "${GREEN}Opening projects...${NC}"; sleep 1; curl -s https://tyler-beck.github.io/terminal-card/projects.sh | bash ;;
         2) echo -e "${GREEN}Loading resume...${NC}"; sleep 1; curl -s https://tyler-beck.github.io/terminal-card/resume.sh | bash ;;
-        3) echo -e "${GREEN}Fetching GitHub stats...${NC}"; sleep 1; echo "📊 23 repos | ⭐ 156 stars | 🔥 15 day streak" ;;
+        3) echo -e "${GREEN}Fetching GitHub stats...${NC}"; sleep 1; echo "23 repos | 156 stars | 15 day streak" ;;
         4) echo -e "${GREEN}Contact: beckt1@tcnj.edu | linkedin.com/in/tylerbeck/profile${NC}" ;;
         *) echo -e "${RED}Thanks for visiting!${NC}" ;;
     esac
 else
-    echo -e "${GREEN}Thanks for checking out my terminal card! 👋${NC}"
-    echo -e "${DIM}(Next time try typing 'y' for interactive mode!)${NC}"
+    echo -e "${GREEN}Thanks for checking out my terminal card${NC}"
+    echo -e "${DIM}(Next time try typing 'y' for interactive mode)${NC}"
 fi

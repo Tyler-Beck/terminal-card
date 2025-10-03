@@ -27,7 +27,7 @@ echo "   ██║      ██║   ███████╗██████�
 echo "   ╚═╝      ╚═╝   ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝"
 echo -e "${NC}"
 echo -e "${WHITE}${BOLD}                              My Projects Portfolio${NC}"
-echo -e "${DIM}                           github.com/tylerbeck/projects${NC}"
+echo -e "${DIM}                           https://www.github.com/Tyler-Beck${NC}"
 echo ""
 
 # Projects Section

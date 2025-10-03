@@ -32,11 +32,11 @@ echo ""
 
 # Contact Info
 echo -e "${YELLOW}${BOLD}Contact Information${NC}"
-echo -e "${WHITE}📧 Email:    ${BLUE}beckt1@tcnj.edu${NC}"
-echo -e "${WHITE}📱 Phone:    ${BLUE}(732) 620-0402${NC}"
-echo -e "${WHITE}💼 LinkedIn:  ${BLUE}https://linkedin.com/in/tyler-beck/profile${NC}"
-echo -e "${WHITE}🐙 GitHub:    ${BLUE}https://github.com/tyler-Beck${NC}"
-echo -e "${WHITE}📍 Location:  ${BLUE}New Jersey, USA${NC}"
+echo -e "${WHITE}Email:    ${BLUE}beckt1@tcnj.edu${NC}"
+echo -e "${WHITE}Phone:    ${BLUE}(732) 620-0402${NC}"
+echo -e "${WHITE}LinkedIn:  ${BLUE}https://linkedin.com/in/tyler-beck/profile${NC}"
+echo -e "${WHITE}GitHub:    ${BLUE}https://github.com/tyler-Beck${NC}"
+echo -e "${WHITE}Location:  ${BLUE}New Jersey, USA${NC}"
 echo ""
 
 # Education
@@ -134,9 +134,9 @@ echo ""
 
 # Download Options
 echo -e "${CYAN}${BOLD}Download Resume${NC}"
-echo -e "${WHITE}📄 PDF Version: ${BLUE}https://tylerbeck.dev/resume.pdf${NC}"
-echo -e "${WHITE}📝 Word Format: ${BLUE}https://tylerbeck.dev/resume.docx${NC}"
-echo -e "${WHITE}🔗 LinkedIn: ${BLUE}https://linkedin.com/in/tyler-beck/profile${NC}"
+echo -e "${WHITE}PDF Version: ${BLUE}https://tylerbeck.dev/resume.pdf${NC}"
+echo -e "${WHITE}Word Format: ${BLUE}https://tylerbeck.dev/resume.docx${NC}"
+echo -e "${WHITE}LinkedIn: ${BLUE}https://linkedin.com/in/tyler-beck/profile${NC}"
 echo ""
 
 # Navigation
